@@ -158,7 +158,7 @@ class MyPromise {
     }
     status = PENDING;//4.定义初始状态
     value = undefined; //7.定义值的存储，以便传递向then
-    reson = undefined; 
+    reason = undefined; 
     successCallback = []; //11.存储回调
     failCallback = [] 
     resolve = value => {//5.改变状态
